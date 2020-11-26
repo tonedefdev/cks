@@ -47,7 +47,7 @@ if ($destroyCluster.IsPresent)
     if ($LASTEXITCODE -eq 0)
     {
         Write-Host @greenCheck
-        Write-Host "Cluster was successfully destroyed!"
+        Write-Host "`nCluster was successfully destroyed!"
     }
 
     return $null
